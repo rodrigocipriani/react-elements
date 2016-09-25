@@ -11,6 +11,7 @@ While not in npm is this way, after a stable version can be used with npm instal
 * npm install
 
 ** Use **
+
 import {
     StyleSheet,
     Text
