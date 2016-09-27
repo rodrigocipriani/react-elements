@@ -25,8 +25,11 @@ import {
     TextInput,
     ScrollView,
     TouchableWithoutFeedback,
+    TouchableHighlight,
     DatePickerAndroid,
-    TimePickerAndroid
+    TimePickerAndroid,
+    ListView,
+    Navigator
 } from 'react-native';
 // import { Text } from 'native-base';
 
@@ -52,8 +55,11 @@ module.exports = {
     TextInput: TextInput,
     ScrollView: ScrollView,
     TouchableWithoutFeedback: TouchableWithoutFeedback,
+    TouchableHighlight: TouchableHighlight,
     DatePicker: DatePickerAndroid,
     TimePicker: TimePickerAndroid,
+    ListView: ListView,
+    Navigator: Navigator,
 
     // material designs components
     Button: Button,
