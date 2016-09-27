@@ -6,8 +6,7 @@ While not in npm is this way, after a stable version can be used with npm instal
 
 **Install**
 * cd /your-project
-* git clone https://github.com/rodrigocipriani/react-elements.git
-* cd react-elements
+* add on your package.json: "react-elements": "git+https://github.com/rodrigocipriani/react-elements.git"
 * npm install
 
 **Use**
@@ -15,5 +14,5 @@ While not in npm is this way, after a stable version can be used with npm instal
 import {
     StyleSheet,
     Text
-} from './react-elements';
+} from 'react-elements';
 
