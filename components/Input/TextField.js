@@ -166,7 +166,7 @@ TextField.defaultProps = {
     borderColor: '#E0E0E0',
     textColor: '#000',
     value: '',
-    dense: false,
+    dense: true,
     underlineColorAndroid: 'rgba(0,0,0,0)',
     multiline: false,
     autoGrow: false,
@@ -176,7 +176,7 @@ TextField.defaultProps = {
 const styles = StyleSheet.create({
     wrapper: {
         height: 72,
-        paddingTop: 25,
+        paddingTop: 20,
         paddingBottom: 0,
         position: 'relative'
     },
